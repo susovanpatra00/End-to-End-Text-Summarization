@@ -8,3 +8,15 @@
 8. Training Pipeline
 9. Prediction Pipeline & User App Creation
 10. CI/CD Deployment on AWS
+
+
+
+
+Libraries Used -
+1. ConfigBox - ConfigBox is a flexible and convenient dictionary-like container from the box library. It 
+            is often used in Python projects for managing configuration settings. It is used for ease of use.
+
+2. ensure_annotations - The ensure_annotations decorator from the ensure library is used to enforce type 
+            annotations at runtime. This helps to ensure that the types of the arguments and return values 
+            of a function match the specified type annotations.
+
