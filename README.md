@@ -1,4 +1,4 @@
-# End to End Text Summarization MLOps using Google Pegasus Model
+# End-to-End Text Summarization MLOps with Fine-Tuned Google Pegasus Model
 
 This project demonstrates an end-to-end Machine Learning Operations (MLOps) pipeline using stages like data ingestion, data validation, data transformation, model training, and model evaluation. 
 
