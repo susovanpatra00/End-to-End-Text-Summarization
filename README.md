@@ -2,20 +2,19 @@
 
 This project demonstrates an end-to-end Machine Learning Operations (MLOps) pipeline using stages like data ingestion, data validation, data transformation, model training, and model evaluation. 
 
-
 ## Key Components
 
 ### 1. Data Ingestion
-The data ingestion stage involves gathering data from various sources and storing it in a structured format. This project uses `samsum` dataset.
+The data ingestion stage involves gathering data from various sources and storing it in a structured format. This project uses the `samsum` dataset.
 
 ### 2. Data Validation
 Data validation ensures that the data meets certain quality criteria. This involves checking for missing values, data types, and ensuring the data is within expected ranges.
 
 ### 3. Data Transformation
-Data transformation involves cleaning and preprocessing the data to make it suitable for model training. This includes tasks like `tokenization`, normalization, and feature engineering.
+Data transformation involves cleaning and preprocessing the data to make it suitable for model training. This includes tasks like tokenization, normalization, and feature engineering.
 
 ### 4. Model Training
-The model training stage involves training a machine learning model on the preprocessed data. This project uses the `google/pegasus-cnn_dailymail` model from the `transformers` library for text summarization.
+The model training stage involves training a machine learning model on the preprocessed data. This project uses the `google/pegasus-cnn_dailymail` model from the `transformers` library for text summarization. Additionally, the model was fine-tuned to improve its performance on the specific dataset used.
 
 ### 5. Model Evaluation
 Model evaluation involves assessing the performance of the trained model using various metrics like `rouge1`, `rouge2`, `rougeL`, `rougeLsum`. This ensures the model meets the required performance standards before deployment.
@@ -40,14 +39,13 @@ To run the app locally, follow these steps:
 
 3. Open your browser and navigate to `http://127.0.0.1:5000` to access the app.
 
-
 ## Notebooks
 
-- `research/TextSummarization.ipynb`: Contains the actual process behind the whole project. 
+- `research/TextSummarization.ipynb`: Contains the actual process behind the whole project.
 
 ## Understanding
-- `learning.txt`: Contains the lower level explanation about the workflow.
 
+- `learning.txt`: Contains the lower level explanation about the workflow.
 
 ## Acknowledgements
 
